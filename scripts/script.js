@@ -191,7 +191,7 @@ prev.addEventListener('click', function () {
 // -----------------------------------------------------------------------------------------------------------
 
 function myResume() {
-    window.open("https://drive.google.com/file/d/1Xi9pV_sb2BK-Vg7eJDZ1J3P-xNC4KWOO/view?usp=sharing");
+    window.open("https://drive.google.com/file/d/1kD2liKisCIqk0NKSP9t4qRNtgGHs8rWf/view?usp=sharing");
 }
 
 // ----------------------------------------------------------------------------------------------------------------
