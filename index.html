@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://kit.fontawesome.com/68a9749c17.js" crossorigin="anonymous"></script>
+
+    <title>Kamlesh Mehta | Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="./favicon/favicon.ico">
+
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/styles2.css">
+
+</head>
+
+<body>
+    <div id="loading-container">
+        <p class="loading">L</p>
+        <div id="loader">
+        </div>
+        <p class="loading">ADING</p>
+        <p class="threeDots">...</p>
+    </div>
+
+    <!-- ---------------------------------navbar-------------------------------- -->
+    <div id="section">
+
+        <div class="topnav" id="myTopnav">
+            <a href="#section" class="a-hover" onclick="linktogo(this)" id="head-home">HOME</a>
+            <a href="#about-flex-container" onclick="linktogo(this)" id="head-about">ABOUT</a>
+            <a href="#journey" onclick="linktogo(this)" id="head-journey">MY JOURNEY</a>
+            <a href="#projects-container" onclick="linktogo(this)" id="head-project">PROJECTS</a>
+            <a href="#contact-container" onclick="linktogo(this)" id="head-contact">CONTACT</a>
+            <a href="https://drive.google.com/file/d/1Xi9pV_sb2BK-Vg7eJDZ1J3P-xNC4KWOO/view?usp=sharing" target="_blank"
+                style="background-color: #aa0a00;color:white">RESUME</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fas fa-bars"></i>
+            </a>
+        </div>
+        <div style="margin-top: 50px;"></div>
+        <!-- -----------------------------------------------------------------------------------         -->
+
+
+        <div class="text-container" id="text-container">
+            <div class="text" id="text">
+                Hello, I'm <span id="highlight" class="highlight">Kamlesh Mehta</span>.
+                <br>
+                <span class="heading-left">I'm a full-stack web developer.</span>
+                <br>
+                <div class="btn-container">
+                    <button class="button" action="#" style="text-shadow: 2px 2px 6px #2b7765;"><a
+                            style="padding: 20px;text-decoration: none;color: #fff;"
+                            href="#about-flex-container">Explore my Work <i
+                                class="fas fa-angle-double-right"></i></a></button>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div style="height:30vh;"></div> -->
+        <div class="flex-left-corner" id="flex-left-corner">
+            <a href='mailto:kamleshm1999@gmail.com?subject=Hello Kamlesh&body=Just want to say hello to you!!'> <i
+                    class="fa fa-envelope" onclick="email()"></i></a>
+            </i>
+            <br>
+            <i class="fa fa-github" onclick="git()"></i>
+            <br>
+            <i class="fa fa-linkedin" onclick="linkedin()"></i>
+            <br>
+            <i class="fa fa-twitter-square" onclick="twitter()"></i>
+            <br>
+            <i class="fa fa-codepen" onclick="codepen()"></i>
+            <br>
+        </div>
+        <div class="about-flex-container" id="about-flex-container">
+
+
+            <div class="flex-item-left" id="flex-item-left">
+                <!-- ----------------------------------------------------------------------------------------- --------------->
+                <div class="slideshow-container">
+                    <h1 class="skills-heading">MY SKILLS</h1>
+
+                    <!-- ------------------------------------------------- -->
+                    <div class="progress-container">
+                        <div class="progress-circle over50 p75">
+                            <span class="percentage">0%</span>
+                            <div class="left-half-clipper">
+                                <div class="first50-bar"></div>
+                                <div class="value-bar"></div>
+                            </div>
+                            <p class="skills">HTML</p>
+                        </div>
+                        <div class="progress-circle over50 p80">
+                            <span class="percentage">0</span>
+                            <div class="left-half-clipper">
+                                <div class="first50-bar"></div>
+                                <div class="value-bar"></div>
+                            </div>
+                            <p class="skills">CSS</p>
+                        </div>
+                        <div class="progress-circle over50 p60">
+                            <span class="percentage">0</span>
+                            <div class="left-half-clipper">
+                                <div class="first50-bar"></div>
+                                <div class="value-bar"></div>
+                            </div>
+                            <p class="skills">JavaScript</p>
+                        </div>
+                        <div class="progress-circle over50 p50">
+                            <span class="percentage">0</span>
+                            <div class="left-half-clipper">
+                                <div class="first50-bar"></div>
+                                <div class="value-bar"></div>
+                            </div>
+                            <p class="skills">Python</p>
+                        </div>
+                        <div class="progress-circle over50 p55">
+                            <span class="percentage">0</span>
+                            <div class="left-half-clipper">
+                                <div class="first50-bar"></div>
+                                <div class="value-bar"></div>
+                            </div>
+                            <p class="skills">Java</p>
+                        </div>
+                        <div class="progress-circle over50 p50">
+                            <span class="percentage">0</span>
+                            <div class="left-half-clipper">
+                                <div class="first50-bar"></div>
+                                <div class="value-bar"></div>
+                            </div>
+                            <p class="skills">IoT</p>
+                        </div>
+                    </div>
+                    <!-- -------------------------------------------------------------------------------------------- -->
+                </div>
+                <a class="prev">&#10094;</a>
+                <a class="next">&#10095;</a>
+
+                <div class="next-progress-container">
+                    <h1 class="my-details">MY DETAILS</h1>
+                    <div class="flex-display">
+                        <ul class="my-data left">
+                            <li>Name:</li>
+                            <li>DOB:</li>
+                            <li>Address:</li>
+                            <li>z-code:</li>
+                            <li>Email:</li>
+                            <li>Phone:</li>
+                        </ul>
+
+                        <ul class="my-data right">
+                            <li>Kamlesh Mehta</li>
+                            <li>January 08, 1999</li>
+                            <li>Gujarat Ahmedabad India</li>
+                            <li>380015</li>
+                            <li>kamleshm1999@gmail.com</li>
+                            <li>+91 8347258774</li>
+                        </ul>
+                    </div>
+                    <button class="download-CV" onclick="myResume()">VIEW CV</button>
+
+                </div>
+            </div>
+            <!-- ------------------------------------------------------------------------------------------------------- -->
+            <div class="flex-item-right">
+                <!-- <video autoplay muted loop id="myVideo">
+                <source src="video/4K_218.mp4" type="video/mp4">
+              </video> -->
+                <h1 class="about-me-heading">ABOUT ME</h1>
+                <hr class="trans--hr1" id="hr1">
+                <p id="about-me-content" class="about-me-content">
+                    Hello i'm Kamlesh starting my journey as a front end developer. Want to become proficient in
+                    HTML, CSS, JavaScript, React JS plus modern libraries and frameworks. Hardworking,gritty and passionate about
+                    providing the best user experience and services.
+                </p>
+                <br>
+                <hr class="trans--hr2" id="hr2">
+            </div>
+        </div>
+
+        <div id="journey">
+            <h1 class="my-journey" id="my-journey" style="font-weight: 600;">MY JOURNEY</h1>
+
+            <div class="experience-container" id="experience-container">
+
+                <div class="experience-list">
+                    <div class="school" onclick="schoolHover(this)">Education</div>
+                    <div class="school" onclick="schoolHover(this)">Internship</div>
+                    <div class="school" onclick="schoolHover(this)">Work</div>
+                    <div class="school" onclick="schoolHover(this)">Training</div>
+                </div>
+
+                <div class="center"></div>
+
+                <div class="my-journey-right">
+                    <small class="small-lotus">May 2014-September 2020</small>
+                    <ul style="list-style: none;color: #fff;">
+                        <h1 class="head-lotus-school">Lotus school</h1>
+
+                        <li><i class="fas fa-angle-double-right"></i> I have completed my SSC on May 2014.</li>
+                        <br>
+                        <h1 class="head-lotus-school">Government Polytechnic Ahmedabad</h1>
+                        <li><i class="fas fa-angle-double-right"></i> I did diploma in Electronics and Communication
+                            from
+                            Government Polytechnic Ahmedabad on August 2017.</li>
+                        <br>
+                        <h1 class="head-lotus-school">Government Engineering College Bhavnagar</h1>
+
+                        <li><i class="fas fa-angle-double-right"></i> On September 2020 completed my B.E. in Electronics
+                            and
+                            Communication.</li>
+                    </ul>
+                </div>
+                <div class="my-journey-right">
+                    <small class="small-lotus">October 2020-January 2020</small>
+                    <ul style="list-style: none;color: #fff;">
+                        <h1 class="head-lotus-school">Teksun Microsys Pvt. Ltd.</h1>
+
+                        <li><i class="fas fa-angle-double-right"></i> I had started my coding journey from learning
+                            programming in C/Embedded c.</li>
+                        <br>
+                        <li><i class="fas fa-angle-double-right"></i> Worked on various micro-controllers
+                            Aruino(ATmega328p),8051.</li>
+                        <br>
+                        <li><i class="fas fa-angle-double-right"></i> Learned Baics of Python <ul>
+                                <li>Reading data from CSV and excels .</li>
+                                <li>Data analysis, Graph Analysis, Data Handling</li>
+                                <li>Worked on various python libraries Pandas,Pyplot,matplotlib,CSV.</li>
+                                <li>Learnt Tkinter to create GUI using Tkinter library.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="my-journey-right">
+                    <small class="small-lotus">January 2021-January 2022</small>
+                    <ul style="list-style: none;color: #fff;">
+                        <h1 class="head-lotus-school">Work</h1>
+
+                        <li><i class="fas fa-angle-double-right"></i> I have 1+ experience working as Software
+                            developer/Firmware Engineer. <br>
+                            <ul>
+                                <li>Worked on TCP/IP protocol on ESP8266 & ESP-32 by creating various projects</li>
+                                <li>Worked on Rpi-3 and learnt MQTT protocol by sending data from remote to cloud
+                                    intercaing
+                                    serial peripherals.</li>
+                            </ul>
+                        </li>
+                        <br>
+                        <li><i class="fas fa-angle-double-right"></i> Worked on various sensors Temp-Sensor,ultrasonic
+                            sensor,pressure sensor,24-bit ADC,DC-
+                            valves,IR-sensor,PH-senssor,DO-sensor</li>
+                        <br>
+                        <li><i class="fas fa-angle-double-right"></i> I have my hands on
+                            multiplexers,amplifiers,regulators,CRO,DSO,fequency generator</li>
+                    </ul>
+                </div>
+                <div class="my-journey-right">
+                    <small class="small-lotus">November 2021</small>
+                    <ul style="list-style: none;color: #fff;">
+                        <h1 class="head-lotus-school">Accio Jobs</h1>
+                        <li><i class="fas fa-angle-double-right"></i> I have joined Accio Jobs Full-Stack Development
+                            Programme. <ul>
+                                <li>Learnt Java and solved basic DSA problems.</li>
+                            </ul>
+                        </li>
+                        <br>
+                        <li><i class="fas fa-angle-double-right"></i> I am enrolled to Front End Development Training.
+                            <ul>
+                                <li>Learning HTML,CSS,JavaScript.</li>
+                                <li>Learnt to use bootstap framework.</li>
+                                <li>Working on some mini Projects using Vanill CSS and JavaScript.</li>
+                            </ul>
+                        </li>
+                        <br>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="projects-container" id="projects-container">
+            <h1 class="projects-head">PROJECTS</h1>
+            <div class="glass-container">
+                <div class="glass">
+                    <a href="https://github.com/Kamleshmehta1/my-website" target="_blank"><i
+                            class="fa fa-github glass-git"></i></a>
+                    <h3>tindDog</h3>
+                    <img src="images/tindog.png" class="glass-img" alt="">
+                    <ul>
+                        <small class="glass-small">HTML,CSS</small>
+                        <button class="demo-btn"><a style="text-decoration: none;"
+                                href="https://kamleshmehta1.github.io/my-website/" target="_blank">DEMO</a></button>
+                    </ul>
+                </div>
+                <div class="glass">
+                    <a href="https://github.com/Kamleshmehta1/drum-stick" target="_blank"><i
+                            class="fa fa-github glass-git"></i></a>
+                    <h3>Drum Stick</h3>
+                    <img src="images/drum.png" class="glass-img" alt="">
+                    <ul>
+                        <small class="glass-small">HTML,CSS,JavaScript</small>
+                        <button class="demo-btn"><a style="text-decoration: none;"
+                                href="https://kamleshmehta1.github.io/drum-stick/" target="_blank">DEMO</a></button>
+                    </ul>
+                </div>
+                <div class="glass">
+                    <a href="https://github.com/Kamleshmehta1/stopWatch" target="_blank"><i
+                            class="fa fa-github glass-git"></i></a>
+                    <h3>Stop Watch</h3>
+                    <img src="images/stopwatch.png" class="glass-img" alt="">
+                    <ul>
+                        <small class="glass-small">HTML,CSS,JavaScript</small>
+                        <button class="demo-btn"><a style="text-decoration: none;"
+                                href="https://kamleshmehta1.github.io/stopWatch/" target="_blank">DEMO</a></button>
+                    </ul>
+                </div>
+                <div class="glass">
+                    <a href="https://github.com/Kamleshmehta1/clock" target="_blank"><i
+                            class="fa fa-github glass-git"></i></a>
+                    <h3>Clock</h3>
+                    <img src="images/clock.png" class="glass-img" alt="">
+                    <ul>
+                        <small class="glass-small">HTML,CSS,JavaScript</small>
+                        <button class="demo-btn"><a style="text-decoration: none;"
+                                href="https://kamleshmehta1.github.io/clock/" target="_blank">DEMO</a></button>
+                    </ul>
+                </div>
+                <div class="glass">
+                    <a href="https://github.com/Kamleshmehta1/todos" target="_blank"><i
+                            class="fa fa-github glass-git"></i></a>
+                    <h3>to do's</h3>
+                    <img src="images/todo.png" class="glass-img" alt="">
+                    <ul>
+                        <small class="glass-small">HTML,CSS,JavaScript</small>
+                        <button class="demo-btn"><a style="text-decoration: none;"
+                                href="https://kamleshmehta1.github.io/todos/" target="_blank">DEMO</a></button>
+                    </ul>
+                </div>
+                <div class="glass">
+                    <a href="https://github.com/Kamleshmehta1/calculator" target="_blank"><i
+                            class="fa fa-github glass-git"></i></a>
+                    <h3>calculator</h3>
+                    <img src="images/calculator.png" class="glass-img" alt="">
+                    <ul>
+                        <small class="glass-small">HTML,CSS,JavaScript</small>
+                        <button class="demo-btn"><a style="text-decoration: none;"
+                                href="https://kamleshmehta1.github.io/calculator/" target="_blank">DEMO</a></button>
+                    </ul>
+                </div>
+                <div class="glass">
+                    <a href="https://github.com/Kamleshmehta1/deploy-project" target="_blank"><i
+                            class="fa fa-github glass-git"></i></a>
+                    <h3>todo List(React)</h3>
+                    <img src="images/todoR.png" class="glass-img" alt="">
+                    <ul>
+                        <small class="glass-small">HTML,CSS,JavaScript,React</small>
+                        <button class="demo-btn"><a style="text-decoration: none;"
+                                href="https://my-react-todolist-23-3.netlify.app/" target="_blank">DEMO</a></button>
+                    </ul>
+                </div>
+                <div class="glass">
+                    <a href="https://github.com/Kamleshmehta1/tours" target="_blank"><i
+                            class="fa fa-github glass-git"></i></a>
+                    <h3>Tours</h3>
+                    <img src="images/tours.png" class="glass-img" alt="">
+                    <ul>
+                        <small class="glass-small">HTML,CSS,JavaScript,React</small>
+                        <button class="demo-btn"><a style="text-decoration: none;"
+                                href="https://react-my-project-tours.netlify.app/" target="_blank">DEMO</a></button>
+                    </ul>
+                </div>
+                <div class="glass">
+                    <a href="https://github.com/Kamleshmehta1/NewsApp" target="_blank"><i
+                            class="fa fa-github glass-git"></i></a>
+                    <h3>News</h3>
+                    <img src="images//news.png" class="glass-img" alt="">
+                    <ul>
+                        <small class="glass-small">HTML,CSS,JavaScript,React</small>
+                        <button class="demo-btn"><a style="text-decoration: none;"></a></button>
+                    </ul>
+                </div>
+
+            </div>
+            <button onclick="showmore()" class="showmore" id="showmore">SHOW MORE <i
+                    class="fas fa-angle-double-right angle-showmore"></i></button>
+            <button onclick="showless()" class="showmore" id="showless">SHOW LESS <i
+                    class="fas fa-angle-double-right angle-showless"></i></button>
+        </div>
+        <div class="scrollbar" id="style-2">
+            <div class="force-overflow"></div>
+        </div>
+
+        <div class="contact-container" id="contact-container">
+            <h1>CONTACT</h1>
+
+            <div class="contact-cont">
+                <form action="/action_page.php">
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="fname" class="contact-name">FIRST NAME</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="lname">LAST NAME</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="email">EMAIL</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="email" id="email" name="lastname" placeholder="Your email address..">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="number">NUMBER</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="number" id="number" name="lastname" placeholder="Your email address..">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="subject">SUBJECT</label>
+                        </div>
+                        <div class="col-75">
+                            <textarea id="subject" name="subject" placeholder="Write something.."
+                                style="height:200px"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="up-arrow"><a href="#section"><i class="fas fa-arrow-up"></i></a></div>
+    </div>
+
+
+
+    <script src="/New folder/circularProgressBar.min.js.map"></script>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/script2.js"></script>
+</body>
+
+</html>

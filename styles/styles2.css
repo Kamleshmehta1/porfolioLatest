@@ -1,0 +1,480 @@
+.experience-container {
+
+    /* border: 2px solid white; */
+    height: 65vh;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+}
+
+@media screen and (max-width: 1200px) {
+    .experience-container {
+        margin-top: 60vh;
+    }
+}
+
+.my-journey {
+    color: #27bb65;
+    font-size: 3rem;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.experience-list {
+    margin-left: 8%;
+    padding: 30px 0px 0px 30px;
+    height: 100vh;
+    width: 250px;
+    flex: 18%;
+}
+
+.school {
+    border-left: 2px solid white;
+    cursor: pointer;
+    color: #fff;
+    line-height: 5rem;
+    font-size: 1.2rem;
+    padding: 0 0 0 30px;
+}
+
+.center {
+    flex: 1%;
+}
+
+.school:hover {
+    opacity: 0.6;
+    background-color: #999999;
+}
+
+.school-hover {
+    opacity: 0.9;
+    color: #b41e5f;
+    font-size: 1.3rem;
+    background-color: #999999;
+    border-left: 10px solid #27bb65;
+}
+
+.my-journey-right {
+    flex: 64%;
+    width: 100vh;
+    height: 500px;
+    margin: 30px 0px;
+    opacity: 1;
+    transition: all 2s ease-in-out;
+    /* border: 2px solid white; */
+}
+
+
+
+
+.my-journey-right i {
+    color: #27bb65;
+    font-size: 20px;
+}
+
+.my-journey-right li {
+    line-height: 1.3em;
+}
+
+.my-journey-right {
+    font-size: 20px;
+    color: #27bb65;
+}
+
+.head-lotus-school:hover {
+    font-size: 2.1rem;
+}
+
+
+/* =-------------------------------------------------------------------------------------- */
+
+.head-lotus-school {
+    text-align: left;
+    color: #ffc900;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.small-lotus {
+    color: #fff;
+    font-size: 1rem;
+}
+
+/* ----------------------------------------------------------------------------------------- */
+
+.projects-container {
+    height: auto;
+    margin: 10%;
+    /* border: 2px solid white; */
+}
+
+.projects-head {
+    color: #27bb65;
+    font-size: 3rem;
+    text-align: center;
+}
+
+/* -------------------------------------------------Glass div----------------------------------------------------------------- */
+
+.glass-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+}
+
+.glass {
+    flex: 25%;
+    position: relative;
+    margin: 30px;
+    height: auto;
+    width: auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    display: inline-block;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+.glass h3 {
+    text-align: center;
+    color: #ffc900;
+    font-size: 20px;
+    font-weight: 500;
+    position: absolute;
+    top: 10;
+    left: 10;
+}
+
+.glass h3:hover {
+    font-size: 25px;
+}
+
+@media screen and (max-width: 800px) {
+
+    .glass {
+        flex: 100%;
+    }
+}
+
+.glass-git {
+    top: 4%;
+    left: 85%;
+    position: absolute;
+    cursor: pointer;
+}
+
+.glass-folder {
+    font-size: 48px;
+    margin: 30px 20px;
+    color: #27bb65
+}
+
+.glass:hover {
+    transform: rotateY(deg);
+}
+
+.glass-small {
+    font-size: 16px;
+    color: #fff;
+}
+
+.glass-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 20%;
+    border: 5px solid white;
+    margin: 15% 0 0 25%;
+}
+
+.glass-img:hover {
+    height: 170px;
+    width: 170px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+
+
+/* ------------------------------------------------------showmore and show less buttons------------------------------------------------------------------- */
+
+.showmore {
+    margin: 20px 0px 20px 40%;
+    display: inline-block;
+    /* padding: 0.75rem 1.25rem; */
+    padding: 1.2rem 1.2rem;
+    padding: 10px 5px;
+    border-radius: 1rem;
+    background-color: transparent;
+    color: white;
+    border: #fff 1px solid;
+    font-size: 1.5rem;
+    letter-spacing: 0.15rem;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.showmore:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border-radius: 10rem;
+    z-index: -2;
+}
+
+/* #fffda2 */
+
+.showmore:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #27bb65;
+    transition: all 0.3s;
+    /* border-radius: 10rem; */
+    z-index: -1;
+}
+
+.showmore:hover {
+    color: #fff;
+    border: 1px solid #b41e5f;
+}
+
+.showmore:hover:before {
+    width: 100%;
+}
+
+.show-more {
+    font-size: 24px;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------- */
+
+.project-text {
+    font-size: 16px;
+}
+
+.demo-btn {
+    background-color: #ffbd39;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 800;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 30%;
+}
+
+/* -------------------------------------------Scroll Bar--------------------------------------------------------- */
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    ;
+    background: #27bb65;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #27bb65;
+}
+
+/* --------------------------------------------------contact----------------------------------------------------------------- */
+
+.contact-container {
+    height: auto;
+    width: 100%;
+    margin-right: 50px;
+    /* border: 2px solid white; */
+}
+
+.contact-container h1 {
+    color: #27bb65;
+    font-size: 3rem;
+    text-align: center;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
+input[type=text],
+input[type=email],
+input[type=number],
+
+select,
+textarea {
+    width: 70%;
+    padding: 12px;
+    color: #fff;
+    border: 1px solid #ccc;
+    background-color: transparent;
+    border-radius: 4px;
+    resize: vertical;
+    -moz-appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+::-webkit-input-placeholder {
+    color: #fff;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    font-size: 20px;
+    color: #ffbd39;
+    margin-left: 100px;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-right: 100px;
+
+}
+
+input[type=submit]:hover {
+    background-color: #27bb65;
+}
+
+.contact-cont {
+    height: auto;
+    width: auto;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 5% 5% 0 5%;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+    .col-25,
+    .col-75,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .experience-container {
+        margin-top: 0;
+        height: 150vh;
+        margin-left: 0;
+    }
+
+    .journey {
+        height: auto;
+    }
+
+    .projects-container {
+        margin-top: 30vh;
+        padding-top: 10vh;
+    }
+
+    label {
+        margin-left: 0px;
+    }
+
+    .showmore {
+        margin-left: 50px;
+    }
+
+    .topnav.responsive {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    label {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .projects-container {
+        margin-top: 40vh;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    .experience-container {
+        margin-top: 0;
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .heading-left {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 700px) {
+    .text-container {
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+
+
+    .button {
+        margin-right: 200px;
+    }
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
+.fa-arrow-up {
+    font-size: 60px;
+    color: #b41e5f;
+    text-align: center;
+}
+
+.up-arrow {
+    width: 100%;
+    text-align: center;
+}
